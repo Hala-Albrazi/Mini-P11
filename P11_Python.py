@@ -1,6 +1,17 @@
-print("Welcome to Multiplication table:")
-NU = int(input("Please enter a number \n"))
-print(f"Here is the multiplication table for number {NU}")
-for i in range (1,11):
-    result = NU * i
-    print(f"{NU} x {i} = {result}")
+tasks = input("enter your taskak").split(", ")
+done = []
+ongoing = []
+for work in tasks:
+    print(work)
+    q = input("finish??")
+    if q == "yes":
+        print("goooood")
+        done.append(work)
+    else:
+        print("do it please")
+        ongoing.append(work)
+qq = input("see progress????")
+if qq == "yes":
+  print(f"done tasks are: {done}")
+  print(f"not yet tasks are: {ongoing}")
+  
