@@ -1,4 +1,4 @@
-tasks = input("enter your taskak").split(", ")
+tasks = input("enter your tasks").split(", ")
 done = []
 ongoing = []
 for work in tasks:
@@ -15,3 +15,4 @@ if qq == "yes":
   print(f"done tasks are: {done}")
   print(f"not yet tasks are: {ongoing}")
   
+
